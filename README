@@ -1,0 +1,28 @@
+Audacious2 Plugin for Xchat2
+
+Place `audacious.pl` in your ~/.xchat2 directory and it should load when Xchat
+starts. This plugin provides an interface to Audacious through your Xchat
+windows allowing you to pause, play, send the currently playing song to the
+channel you are in, set shuffle mode, skip to the next song in your playlist,
+and add songs to the playlist.
+
+Commands:
+
+/aud_now_playing
+    Announce the currently playing track to the channel.
+/aud_next
+    Skip to the next song in the playlist.
+/aud_prev
+    Jump to the previous song in the playlist.
+/aud_play
+    Start playback.
+/aud_pause
+    Pause playback.
+/aud_playlist
+    Display the current playlist.
+/aud_clear
+    Clear the playlist.
+/aud_add
+    Prompt to add a new song to the playlist.
+/aud_shuffle
+    Toggle playlist shuffling. Shuffle status will be displayed.
